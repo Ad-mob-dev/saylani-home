@@ -1,0 +1,1475 @@
+.logo img {
+    width: 200px;
+    height: 52px;
+    margin-left: 43px;
+    margin-right: auto;
+}
+
+.cc ul {
+    list-style: none;
+}
+
+.cc {
+    background-color: transparent;
+    display: inline-block;
+    position: relative;
+}
+
+
+/* menu angel right */
+
+.fr {
+    font-size: 15px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    float: right;
+    margin-top: 7px;
+    margin-right: 10px;
+    /* margin-left: 20px; */
+}
+
+
+/* main ul */
+
+.cc>.menu {
+    margin-left: 130px;
+}
+
+.cc .menu>li {
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 8px;
+}
+
+.dropdown>li>a:hover,
+.dropdown>li:hover,
+.left>li:hover,
+.left>li>a:hover,
+.leftyy>li:hover,
+.leftyy>li>a:hover,
+.menu>li:focus,
+.menu>li>a:focus,
+a:hover ul>li {
+    background-color: #316DC3;
+    color: white !important;
+    border-radius: 15%;
+}
+
+
+/* main inner dropdown hover */
+
+.cc .menu>li:hover .dropdown {
+    display: block;
+    background-color: #f7f8fa;
+    z-index: 1;
+    width: 200px;
+    font-size: 15px;
+    line-height: 2;
+    position: absolute;
+    top: 1;
+    box-shadow: 0px 8px 16px 0px rgb(49, 109, 195, 1);
+    border: 0.5px solid black;
+}
+
+
+/* main inner dropdown  */
+
+.cc .menu>li>.dropdown {
+    display: none;
+    list-style: none;
+    width: 200px;
+    z-index: 1;
+}
+
+
+/* 2nd left opening menu */
+
+.cc .dropdown .left {
+    display: none;
+    border: 3 solid black;
+    list-style: none;
+    background-color: #f7f8fa;
+    width: 200px;
+    padding: 0px !important;
+    z-index: 1;
+}
+
+
+/* 2nd left opening dropdown menu hover */
+
+.cc .dropdown>li:hover .left {
+    display: inline-block;
+    position: absolute;
+    top: 1;
+    left: 100%;
+    border-radius: 3 solid black;
+    margin-left: 0px;
+    line-height: 1.8;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgb(49, 109, 195, 1);
+}
+
+.dropdown>li,
+.left>li,
+.leftyy>li {
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 30%;
+}
+
+.menu a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu>li>a {
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 30%;
+    padding: 7px;
+}
+
+.menu a:hover {
+    background-color: #316DC3;
+    color: white;
+    border-radius: 20%;
+}
+
+
+/* 3rd sub menu  */
+
+.leftyy {
+    display: none;
+    background-color: #f7f8fa;
+    text-align: center;
+    list-style: none;
+    width: 200px;
+    padding: 0px !important;
+    z-index: 1;
+}
+
+
+/* 3rd sub menu hover */
+
+.dropdown .left>li:hover .leftyy {
+    display: block;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    border-radius: 3 solid black;
+    line-height: 1.8;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+}
+
+ul.left,
+ul.leftl,
+ul.dropdown {
+    padding: 0px;
+    margin: 0px;
+}
+
+.social {
+    background-color: #316DC3;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+/* fa icons */
+
+.fa {
+    color: white;
+    font-size: 13px;
+    padding: 5px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+
+/* whatsapp social image at topbar */
+
+.whatsapp {
+    margin-left: 15px;
+    height: 15px;
+    vertical-align: middle;
+    display: inline;
+}
+
+
+/* topbar right buttons */
+
+.topbtn1,
+.topbtn2,
+.topbtn3 {
+    padding: 5px;
+    height: 24px;
+    width: auto;
+    justify-content: center;
+    text-align: center;
+    color: green;
+    border-color: green;
+    display: inline-flex;
+    vertical-align: middle;
+    background-color: honeydew;
+    font-size: 12px;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+/* row for divs */
+
+.row {
+    line-height: 3;
+    margin-top: 2px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.my2 {
+    background-color: #316DC3;
+    font-size: 14px;
+    color: white;
+    line-height: 1.6;
+    text-align: center;
+    font-weight: lighter;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mydiv3 {
+    background-color: #316DC3;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.mydiv1 {
+    background-color: #316DC3;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* on hover dropdown menu */
+
+#marq {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+    background-color: #316DC3;
+    color: white;
+    height: 30px;
+    line-height: 2;
+}
+
+.topbar_btn {
+    padding: 5px;
+}
+
+.header {
+    width: 100%;
+    background-color: honeydew;
+}
+
+
+/* section for NumberShow Row */
+
+.Mrow {
+    background-color: rgba(36, 79, 242, 0.8);
+    margin-top: 50px;
+}
+
+
+/* section for NumberShow 4 columns */
+
+.cola {
+    color: white;
+    text-align: center;
+    background-color: rgba(36, 79, 242, 0.8);
+    height: 300px;
+    text-align: center;
+    float: left;
+    font-family: 'Merriweather', serif, Arial, Helvetica, sans-serif;
+    padding: 4px;
+    padding-top: 70px;
+}
+
+
+/* section for NumberShow number h1 Heading Font & Size */
+
+.cola h1 {
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Merriweather', serif;
+    color: whitesmoke;
+}
+
+
+/* what we do Main Heading */
+
+.section-title {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* what we do card struct */
+
+.colx {
+    text-align: center;
+    width: 350px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+    padding: 30px;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    border-radius: 2px solid green;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 50px;
+}
+
+
+/* What we Do ! card heading and Image */
+
+.colx>a,
+h1,
+img {
+    text-align: center;
+    font-size: 22px;
+    color: #316DC3;
+    font-family: 'Merriweather', serif;
+    font-weight: 800;
+}
+
+
+/* what we do main */
+
+.cm {
+    width: 100%;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: left;
+    border: none;
+    background-color: white;
+}
+
+.sm-card {
+    width: 350px;
+    height: 75px;
+    background-color: #f7f8fa !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 40px;
+    padding: 10px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+.sm-out {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: -19px;
+}
+
+.sm-card a {
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+.sm-card span {
+    line-height: 1.6;
+    color: blue;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.ue marquee {
+    margin-left: 22px;
+}
+
+
+/* footer section */
+
+.footer-bottom {
+    width: 100%;
+}
+
+.scrollToTop {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    text-align: center;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+}
+
+.scrollToTop:hover {
+    background-color: #555;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.scrollToTop i {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(1, 1, 1, 0.1);
+    text-align: center;
+}
+
+.foocredit {
+    background-color: #316DC9;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.foocredit>p {
+    margin: auto 0px auto -8px;
+}
+
+
+/* footer main div 3 col layout */
+
+.img_container {
+    padding-top: 40px;
+    background-color: white;
+    padding-bottom: 60px;
+}
+
+
+/* hr line 2nd div footer */
+
+.uhr {
+    border: 0;
+    height: 2px;
+    background: linear-gradient(to left, #bbb 84%, #1e9932 16%);
+    margin-top: -2px;
+}
+
+
+/* 1st col / div footer */
+
+.mcol {
+    color: #bbb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.mcol>#flogo {
+    width: 320px;
+    height: 115px;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 30px;
+    border-radius: 0%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mcol>ul {
+    display: grid;
+    grid-template-areas: 'grid1 mygrid''grid2 grid2' 'grid3 grid3' 'grid4 grid4' 'grid5 grid5';
+    grid-gap: 2px;
+    grid-column-gap: 34px;
+    word-spacing: 2pt;
+}
+
+.frow {
+    line-height: 2 !important;
+}
+
+.mcol ul>.ll {
+    grid-area: mygrid;
+}
+
+.mcol ul>.grid1 {
+    grid-area: grid1;
+}
+
+.mcol ul>.grid2 {
+    grid-area: grid2;
+}
+
+.mcol ul>.grid3 {
+    grid-area: grid3;
+}
+
+.mcol ul>.grid4 {
+    grid-area: grid4;
+}
+
+.mcol ul>.grid5 {
+    grid-area: grid5;
+}
+
+
+/* 2nd col /div footer */
+
+.mcol2 {
+    display: inline;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+/* 3rd col /div footer */
+
+.mcol3 {
+    display: block;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+/* footer heading for 2nd and 3rd col /div */
+
+.ulinkt {
+    font-size: 20px;
+    margin-top: 80px;
+    color: white;
+    font-weight: 600;
+}
+
+
+/* footer : ul for social icons 3 col/div */
+
+.connect-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: wrap;
+}
+
+
+/* footer: ul li icons 3rd col /div */
+
+.connect-list li>i {
+    font-size: 12px;
+    background-color: #316DC3;
+    border-radius: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    width: 28px;
+    height: 28px;
+}
+
+
+/* img gallery/ what we do /intro Section heading */
+
+.gallery_heading>h1,
+.section>h2,
+.intro-col>h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+
+/* gallery heading margin bottom */
+
+.gallery_heading {
+    margin-bottom: 10px;
+}
+
+
+/* main div for image gallery images */
+
+.img_main_div {
+    display: flex;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* image for image gallery main div */
+
+.img_main_div img {
+    height: 123px;
+    width: 210px;
+}
+
+.inimg {
+    margin-left: 5px;
+}
+
+div.card>h1 {
+    display: flex;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    font-size: 24px;
+    justify-content: flex-end;
+    width: 560px;
+    font-weight: 600;
+}
+
+div.card>hr {
+    margin-left: 130px;
+    margin-top: -30px;
+}
+
+div.ue>h1 {
+    display: flex;
+    margin-left: 30px;
+    font-size: 24px;
+}
+
+div.ue>hr {
+    margin-left: 35px;
+    margin-top: -30px;
+}
+
+body {
+    background-color: #f7f8fa !important;
+    font-family: 'Merriweather', serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* Media Queries */
+
+@media (min-width: 300px) and (max-width:500px) {
+    .foocredit {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 13px;
+        font-weight: 700;
+    }
+    div.sm-out {
+        display: flex;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    div.sm-card {
+        width: 240px;
+        height: 100px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .card {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    .card>h1 {
+        font-size: 20px !important;
+        width: 270px !important;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 1;
+    }
+    .ue {
+        text-align: center;
+    }
+    .ue marquee {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card hr {
+        display: none;
+    }
+    .logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+    .logo img {
+        margin: 0px;
+    }
+    .cc>.menu {
+        margin: 0px;
+        margin-right: 60px;
+    }
+    .cc {
+        display: inline-block;
+    }
+    .cm {
+        width: fit-content;
+        height: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .colx {
+        text-align: center;
+        width: 300px;
+        height: 200px;
+        background-color: white;
+        box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+        float: none;
+        padding: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 2px solid green;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .img_main_div {
+        display: flex;
+        margin-left: 0 auto;
+        margin-right: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .inimg {
+        margin-left: 40px;
+        margin-top: 20px;
+        position: relative;
+        margin: 20px;
+    }
+    .mcol {
+        color: #bbb;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    .mcol>#flogo {
+        width: 250px;
+        height: 150px;
+        background-color: white;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        padding: 30px;
+        border-radius: 30%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mcol>ul {
+        display: flex;
+        flex-direction: column;
+        font-size: 13px;
+    }
+    .mcol span {
+        font-size: 15px;
+        display: inline;
+        margin-left: 0px;
+    }
+    .mcol2 {
+        display: block;
+        font-size: 16px;
+        line-height: 1.6;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: center;
+    }
+    /* 3rd col /div footer */
+    .mcol3 {
+        display: block;
+        font-size: 16px;
+        line-height: 1.6;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    /* footer heading for 2nd and 3rd col /div */
+    .ulinkt {
+        font-size: 20px;
+        margin-top: 15px;
+        color: white;
+        font-weight: 600;
+    }
+    /* footer : ul for social icons 3 col/div */
+    .connect-list {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-flow: wrap;
+    }
+    .uhr {
+        background: linear-gradient(to bottom, #bbb 50%, #1e9932 50%);
+    }
+}
+
+@media (min-width: 501px) and (max-width:600px) {
+    .foocredit {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    div.sm-out {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    .card h1 {
+        display: block !important;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 22px !important;
+        width: 100% !important;
+    }
+    div.card hr {
+        margin-left: auto;
+        margin-right: auto;
+        width: 390px !important;
+    }
+    div.sm-card {
+        width: match-parent;
+        height: 100px;
+        text-align: center;
+        font-size: 15px;
+        padding: 0px;
+    }
+    .cm {
+        width: match-parent;
+        height: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    section.container-fluid {
+        background-color: white;
+    }
+    .colx {
+        text-align: center;
+        width: match-parent;
+        height: 200px;
+        background-color: white;
+        box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+        float: none;
+        margin-left: 0 auto;
+        margin-right: 0 auto;
+        border-radius: 2px solid green;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+        margin-bottom: 20px;
+    }
+    .img_main_div {
+        display: flex;
+        margin-left: 0 auto;
+        margin-right: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .inimg {
+        margin-left: 40px;
+        margin-top: 20px;
+        position: relative;
+        margin: 20px;
+    }
+    .mcol {
+        color: #bbb;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    .mcol>#flogo {
+        width: 450px;
+        height: 150px;
+        background-color: white;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        padding: 30px;
+        border-radius: 30%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mcol>ul {
+        display: flex;
+        flex-direction: column;
+        font-size: 13px;
+    }
+    .mcol span {
+        font-size: 15px;
+        display: block;
+        line-break: strict;
+    }
+    .mcol2 {
+        display: block;
+        font-size: 16px;
+        line-height: 1.6;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: center;
+    }
+    /* 3rd col /div footer */
+    .mcol3 {
+        display: block;
+        font-size: 16px;
+        line-height: 1.6;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    /* footer heading for 2nd and 3rd col /div */
+    .ulinkt {
+        font-size: 20px;
+        margin-top: 15px;
+        color: white;
+        font-weight: 600;
+    }
+    /* footer : ul for social icons 3 col/div */
+    .connect-list {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-flow: wrap;
+    }
+    .uhr {
+        background: linear-gradient(to bottom, #bbb 50%, #1e9932 50%);
+    }
+    .cc>.menu {
+        display: inline-flex;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .menu {
+        display: inline;
+    }
+    .logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+    .logo img {
+        margin: 0px;
+    }
+}
+
+@media (min-width: 601px) and (max-width:767px) {
+    .foocredit {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    div.sm-out {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    .card>h1 {
+        display: flex;
+        flex-direction: column;
+    }
+    div.card hr {
+        margin-left: 65px;
+    }
+    div.sm-card {
+        width: match-parent;
+        height: 100px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .cm {
+        width: match-parent;
+        height: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cc>.menu {
+        margin: 0px;
+    }
+    .menu {
+        display: block;
+        width: match-parent;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+    .logo img {
+        margin: 0px;
+    }
+    .card h1 {
+        display: block !important;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 25px !important;
+        width: 100% !important;
+    }
+    div.card hr {
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px !important;
+    }
+    .colx {
+        text-align: center;
+        width: match-parent;
+        height: 200px;
+        background-color: white;
+        box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+        float: none;
+        padding: 60px;
+        border-radius: 2px solid green;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .img_main_div {
+        display: flex;
+        margin-left: 0 auto;
+        margin-right: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .inimg {
+        margin-left: 40px;
+        margin-top: 20px;
+        position: relative;
+        margin: 20px;
+    }
+    .mcol {
+        color: #bbb;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+    .mcol>#flogo {
+        width: 550px;
+        height: 150px;
+        background-color: white;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        padding: 30px;
+        border-radius: 30%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mcol>ul {
+        display: flex;
+        flex-direction: column;
+        font-size: 13px;
+    }
+    .mcol span {
+        font-size: 15px;
+        display: block;
+        line-break: strict;
+    }
+    .mcol2 {
+        display: block;
+        font-size: 16px;
+        line-height: 1.6;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: center;
+    }
+    /* 3rd col /div footer */
+    .mcol3 {
+        display: block;
+        font-size: 16px;
+        line-height: 1.6;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    /* footer heading for 2nd and 3rd col /div */
+    .ulinkt {
+        font-size: 20px;
+        margin-top: 15px;
+        color: white;
+        font-weight: 600;
+    }
+    /* footer : ul for social icons 3 col/div */
+    .connect-list {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-flow: wrap;
+    }
+    .uhr {
+        background: linear-gradient(to bottom, #bbb 50%, #1e9932 50%);
+    }
+}
+
+@media (min-width: 768px) and (max-width:1000px) {
+    .cc>.menu {
+        margin: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .menu {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 20px;
+    }
+    .menu li,
+    a {
+        font-size: 15px !important;
+        padding: 2px !important;
+    }
+    .logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px !important;
+    }
+    .logo img {
+        margin: 0px !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .sm-out {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: -19px;
+    }
+    .card {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: start;
+        width: match-parent;
+    }
+    div.card>h1 {
+        display: contents;
+        margin-left: -80px;
+        margin-right: 0 auto;
+        font-size: 24px;
+    }
+    div.card>hr {
+        margin-left: 0px;
+        margin-top: -30px;
+    }
+    div.ue>h1 {
+        display: contents;
+        margin-left: -90px;
+        font-size: 24px;
+    }
+    div.ue>hr {
+        margin-left: 0px;
+        margin-top: -30px;
+    }
+    div.ue>marquee {
+        height: 500px;
+        margin-right: 0 auto;
+        display: block;
+        margin-left: -10px
+    }
+    div.sm-card {
+        width: match-parent;
+        height: 100px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .cm {
+        margin-top: 10px;
+        width: match-parent;
+        height: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .colx {
+        width: match-parent;
+        height: 200px;
+        background-color: white;
+        box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+        float: none;
+        padding: 60px;
+        border-radius: 2px solid green;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .img_main_div {
+        display: flex;
+        margin-left: 0 auto;
+        margin-right: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .inimg {
+        margin-left: 40px;
+        margin-top: 20px;
+        margin: 20px;
+    }
+    .mcol {
+        color: #bbb;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size: 12px;
+        line-height: 1.6;
+        padding: 20px;
+    }
+    .mcol>#flogo {
+        width: 250px;
+        height: 110px;
+        background-color: white;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        padding: 30px;
+        border-radius: 0%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mcol>ul {
+        display: grid;
+        grid-template-areas: 'grid1' 'mygrid' 'grid2' 'grid3' 'grid4' 'grid5';
+        grid-gap: 2px;
+        grid-column-gap: 0px;
+        margin-left: -60px;
+        font-size: 13px;
+    }
+    .frow {
+        line-height: 2 !important;
+    }
+    .mcol span {
+        display: block;
+    }
+    /* 2nd col /div footer */
+    .mcol2 {
+        display: block;
+        font-size: 16px;
+        line-height: 1.6;
+        margin-left: 40px;
+    }
+    /* 3rd col /div footer */
+    .mcol3 {
+        display: inline;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    /* footer heading for 2nd and 3rd col /div */
+    .ulinkt {
+        font-size: 20px;
+        margin-top: 80px;
+        color: white;
+        font-weight: 600;
+    }
+    /* footer : ul for social icons 3 col/div */
+    .connect-list {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-flow: wrap;
+    }
+    /* footer: ul li icons 3rd col /div */
+    .connect-list li>i {
+        font-size: 12px;
+        background-color: #316DC3;
+        border-radius: 100%;
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5px;
+        width: 28px;
+        height: 28px;
+    }
+}
+
+@media (min-width: 1001px) and (max-width:1172px) {
+    .logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px !important;
+    }
+    .logo img {
+        margin: 0px !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .menu {
+        margin: 0px !important;
+    }
+    .sm-out {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: -19px;
+    }
+    .img_main_div {
+        display: flex;
+        margin-left: 0 auto;
+        margin-right: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .inimg {
+        margin-left: 40px;
+        margin-top: 20px;
+        margin: 20px;
+    }
+    .mcol {
+        color: #bbb;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size: 12px;
+        line-height: 1.6;
+        padding: 20px;
+    }
+    .mcol>ul {
+        display: grid;
+        grid-template-areas: 'grid1' 'mygrid' 'grid2' 'grid3' 'grid4' 'grid5';
+        grid-gap: 0px;
+        grid-column-gap: 0px;
+        margin-left: -60px;
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 1173px) and (max-width:1395px) {
+    .mcol>ul {
+        font-size: 13px;
+        grid-gap: 3;
+        margin-left: 0px;
+    }
+}
